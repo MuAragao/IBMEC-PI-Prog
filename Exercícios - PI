@@ -1,0 +1,39 @@
+- Murilo Aragão Falante de Souza, 202102632765
+
+PI: Programação Aplicada ao Direito
+
+Trabalho 1 - entrega 20/02/2024
+-Conceitos Iniciais-
+
+1 - Forneça a definição da termo ARQUIVO, no contexto da computação. 
+  De maneira genérica e independente do suporte em que está armazenado o arquivo é a maneira como os dados estão organizados e as operações usadas podendo ser documentos, programas executáveis, imagens, planilhas, etc.
+
+1.1 - O que é um ARQUIVO DE TEXTO? 
+  Para entender o que é um arquivo de texto é interessante saber a diferença de um arquivo binário. Nos arquivos binários cada byte pode ser usado para definir qualquer valor, enquanto no arquivo em texto cada byte se converte em caractere da nossa linguagem.
+
+2- Explique o que é uma VARIÁVEL, no contexto da programação de computadores. 
+  De forma genérica as variáveis são um ou mais valores que são manipulados pelos programas durante a sua operação, sendo armazenas e podendo ser alteradas durante a execução de um programa. As variáveis podem ser divididas em outras definições mais específicas como as quantitativas e as qualitativas.
+
+3 - Explique o que seria um SERVIDOR, no contexto da computação.
+	Servidor pode ter mais de uma definição, desde o hardware onde são armazenados arquivos, pontos de processamento onde programas(app´s) rodam, ou que forneça qualquer outro tipo de serviço ao cliente.
+
+4 - Crie uma conta E um repositório no GITHUB.
+  https://github.com/MuAragao/IBMEC-PI-Prog.git
+
+
+Trabalho 2 - entrega em 
+-Computadores e Arquivos-
+A – Encontre referências e comente: a. A relação entre a LGPD e os Data Centers no Brasil
+
+
+B - Formatos de arquivos de dados proprietários e abertos 
+
+
+B.1 - forneça exemplos de formatos
+
+
+B.2 discuta as implicações relacionadas a dados públicos
+
+
+C – Inclua seus comentários no arquivo de texto NO githu
+
