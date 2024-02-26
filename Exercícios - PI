@@ -6,34 +6,39 @@ Trabalho 1 - entrega 20/02/2024
 -Conceitos Iniciais-
 
 1 - Forneça a definição da termo ARQUIVO, no contexto da computação. 
-  De maneira genérica e independente do suporte em que está armazenado o arquivo é a maneira como os dados estão organizados e as operações usadas podendo ser documentos, programas executáveis, imagens, planilhas, etc.
+	De maneira genérica e independente do suporte em que está armazenado os arquivos são dados não temporários, que serão mantidos e não descartados como os dados que passam pela mémória. Além disso eles podem variar em seus formatos que é a maneira como os dados estão organizados e as operações usadas podendo ser documentos, programas executáveis, imagens, planilhas, etc.
 
 1.1 - O que é um ARQUIVO DE TEXTO? 
-  Para entender o que é um arquivo de texto é interessante saber a diferença de um arquivo binário. Nos arquivos binários cada byte pode ser usado para definir qualquer valor, enquanto no arquivo em texto cada byte se converte em caractere da nossa linguagem.
+	Para entender o que é um arquivo de texto é interessante saber a diferença de um arquivo binário. Nos arquivos binários cada byte pode ser usado para definir qualquer valor, enquanto no arquivo em texto cada byte se converte em caractere da nossa linguagem.
 
 2- Explique o que é uma VARIÁVEL, no contexto da programação de computadores. 
-  De forma genérica as variáveis são um ou mais valores que são manipulados pelos programas durante a sua operação, sendo armazenas e podendo ser alteradas durante a execução de um programa. As variáveis podem ser divididas em outras definições mais específicas como as quantitativas e as qualitativas.
+	De forma genérica as variáveis são um ou mais valores que são manipulados pelos programas durante a sua operação, sendo armazenas e podendo ser alteradas durante a execução de um programa. As variáveis podem ser divididas em outras definições mais específicas como as quantitativas e as qualitativas.
 
 3 - Explique o que seria um SERVIDOR, no contexto da computação.
 	Servidor pode ter mais de uma definição, desde o hardware onde são armazenados arquivos, pontos de processamento onde programas(app´s) rodam, ou que forneça qualquer outro tipo de serviço ao cliente.
 
 4 - Crie uma conta E um repositório no GITHUB.
-  https://github.com/MuAragao/IBMEC-PI-Prog.git
+	https://github.com/MuAragao/IBMEC-PI-Prog.git
 
 
-Trabalho 2 - entrega em 
+Trabalho 2 - entrega em 26/02/2024
 -Computadores e Arquivos-
-A – Encontre referências e comente: a. A relação entre a LGPD e os Data Centers no Brasil
+A – Encontre referências e comente: a. A relação entre a LGPD e os Data Centers no Brasil.
+	A Lei Geral de Proteção de Dados (LGPD) tem um impacto significativo nos Data Centers no Brasil. A LGPD exige que as organizações sejam mais responsáveis com o gerenciamento das informações armazenadas. Os Data Centers, que são responsáveis por hospedar e disponibilizar dados, precisam garantir que suas operações estejam em conformidade com a LGPD23. Isso inclui garantir a segurança dos dados, controlar e verificar o acesso a um Data Center3. Além disso, a LGPD também se relaciona com a Lei de Acesso à Informação (LAI) e com princípios constitucionais.
+Referências:
+	https://zeittec.com.br/seu-data-center-esta-adequado-a-lgpd/#:~:text=A%20Lei%20Geral%20de%20Prote%C3%A7%C3%A3o,vazamentos%2C%20roubos%20ou%20outros%20danos 
+	https://lgpdbrasil.com.br/veja-quais-sao-os-impactos-da-lgpd-para-os-data-centers/
+	https://www.infomoney.com.br/business/a-nuvem-precisa-crescer-e-o-mercado-de-data-centers-acompanha-a-demanda/
 
+B - Formatos de arquivos de dados proprietários e abertos.
+	Formatos de arquivos proprietários são aqueles criados e mantidos por uma única empresa e a especificação do formato é mantida em segredo ou não é divulgada publicamente. Isso significa que apenas os aplicativos desenvolvidos por essa empresa específica ou com permissão da empresa podem abrir, editar e salvar arquivos nesse formato. Exemplos incluem DOC (Microsoft Word Document), DWG (AutoCad Drawing), MP3 (MPEG Audio Layer 3).
+	Por outro lado, os formatos abertos são especificações técnicas de domínio público usadas para a descrição e armazenamento de dados digitais, livres de restrições legais para seu uso. Exemplos incluem TXT (formato de texto), HTML (formato padrão na web), PNG (formato comum de imagem na web).
 
-B - Formatos de arquivos de dados proprietários e abertos 
-
-
-B.1 - forneça exemplos de formatos
-
+B.1 - forneça exemplos de formatos.
+	Como citado na questão anterior .doc .dwg .mp3 .txt ..html .png .pdf entre outros.
 
 B.2 discuta as implicações relacionadas a dados públicos
+	Os dados públicos, segundo a LGPD, devem ser tratados considerando a finalidade, a boa-fé e o interesse público que justificaram a sua disponibilização. Com a implementação das normas a partir da promulgação da CF/88, com destaque para a LAI e a LGPD, é necessário ter clara as implicações de tais normas no âmbito da atuação do setor público. Além disso, dados são importantes fontes de informação que possibilitam análises, estudos e até o desenvolvimento de políticas públicas baseadas em evidências.
 
-
-C – Inclua seus comentários no arquivo de texto NO githu
+C – Inclua seus comentários no arquivo de texto NO github.
 
