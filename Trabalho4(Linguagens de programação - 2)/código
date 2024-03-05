@@ -1,0 +1,15 @@
+# Notas dos alunos
+alunos = {
+    "aluno1": 70,
+    "aluno2": 90,
+    "aluno3": 50,
+    "aluno4": 80,
+    "aluno5": 30,
+}
+# Estrutura de repetição(for/in)
+for aluno, nota in alunos.items():
+# Estrutura de tomada de decisão(if/else)
+ if nota >= 70:
+     print(f"{aluno} está aprovado, com nota {nota}")
+ else:
+     print(f"{aluno} está aprovado, com nota {nota}")
