@@ -12,4 +12,4 @@ for aluno, nota in alunos.items():
  if nota >= 70:
      print(f"{aluno} está aprovado, com nota {nota}")
  else:
-     print(f"{aluno} está aprovado, com nota {nota}")
+     print(f"{aluno} está reprovado, com nota {nota}")
