@@ -1,0 +1,24 @@
+def bubble_sort(lista):
+    # Determina o tamanho da lista
+    n = len(lista)
+
+    # Este loop externo será executado para cada elemento da lista
+    for i in range(n):
+        # O loop interno compara cada elemento da lista com o próximo
+        for j in range(0, n - i - 1):
+            # Se o elemento atual for maior que o próximo
+            if str(lista[j]) > str(lista[j + 1]):
+                # Troca os elementos
+                lista[j], lista[j + 1] = lista[j + 1], lista[j]
+
+    # Retorna a lista ordenada
+    return lista
+
+# Solicita ao usuário que insira uma lista de números ou strings
+lista_usuario = input("Digite uma lista de números ou palavras, separados por vírgulas: ").split(',')
+
+# Remove espaços em branco no início e no final de cada item
+lista_usuario = [item.strip() for item in lista_usuario]
+
+# Ordena a lista do usuário
+print(bubble_sort(lista_usuario))
