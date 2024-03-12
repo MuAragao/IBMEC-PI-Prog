@@ -1,0 +1,24 @@
+def bubble_sort_vogais(frase):
+    # Cria uma lista apenas com as vogais da frase
+    vogais = [letra for letra in frase if letra.lower() in 'aeiou']
+
+    # Determina o tamanho da lista de vogais
+    n = len(vogais)
+
+    # Este loop externo será executado para cada elemento da lista
+    for i in range(n):
+        # O loop interno compara cada elemento da lista com o próximo
+        for j in range(0, n - i - 1):
+            # Se o elemento atual for maior que o próximo
+            if vogais[j] > vogais[j + 1]:
+                # Troca os elementos
+                vogais[j], vogais[j + 1] = vogais[j + 1], vogais[j]
+
+    # Retorna a lista de vogais ordenada
+    return vogais
+
+# Solicita ao usuário que insira uma frase ou palavra
+frase_usuario = input("Digite uma frase ou palavra: ")
+
+# Ordena e imprime apenas as vogais da frase do usuário
+print(bubble_sort_vogais(frase_usuario))
