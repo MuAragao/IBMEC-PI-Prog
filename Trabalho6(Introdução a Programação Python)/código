@@ -1,0 +1,37 @@
+# Variáveis
+numero1 = 5
+numero2 = 10
+numero3 = 34
+numero4 = 7
+frase = "uma frase simples qualquer."
+palavra = "papagaio"
+
+# Média aritmética dos quatro números
+media = (numero1 + numero2 + numero3 + numero4) / 4
+
+# Quadrado do terceiro número
+quadrado_numero3 = numero3 ** 2
+
+# Dobro do quarto número
+dobro_numero4 = 2 * numero4
+
+# Quantidade de letras na palavra
+quantidade_letras_palavra = len(palavra)
+
+# Quantidade de espaços em branco na frase
+quantidade_espacos_frase = frase.count(" ")
+
+# Verifica se o primeiro número é maior que o segundo
+primeiro_maior_segundo = numero1 > numero2
+
+# Encontra o maior número entre os quatro
+maior_numero = max(numero1, numero2, numero3, numero4)
+
+# Imprime os resultados
+print(f"Média aritmética: {media:.2f}")
+print(f"Quadrado do terceiro número: {quadrado_numero3}")
+print(f"Dobro do quarto número: {dobro_numero4}")
+print(f"Quantidade de letras na palavra: {quantidade_letras_palavra}")
+print(f"Quantidade de espaços em branco na frase: {quantidade_espacos_frase}")
+print(f"O primeiro número é maior que o segundo? {primeiro_maior_segundo}")
+print(f"O maior número é: {maior_numero}")
