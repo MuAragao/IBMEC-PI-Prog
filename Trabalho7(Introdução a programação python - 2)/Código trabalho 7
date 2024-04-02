@@ -1,0 +1,27 @@
+#Função para calcular média e soma
+def calcular_media_soma():
+    numeros = input("Insira uma sequência de números separados por espaço: ")
+    lista = list(map(int, numeros.split()))
+    media = sum(lista) / len(lista)
+    soma = sum(lista)
+    return media, soma
+
+#Função para substituir palavra
+def substituir_palavra():
+    palavras = input("Insira uma lista de palavras separadas por espaço: ")
+    lista = palavras.split()
+    palavra_antiga = input("Insira a palavra que deseja substituir: ")
+    palavra_nova = input("Insira uma nova palavra: ")
+    return [palavra_nova if palavra == palavra_antiga else palavra for palavra in lista]
+
+#Função para gerar triângulo
+def gerar_triangulo():
+    n = int(input("Insira o número de linhas para o triângulo: "))
+    for i in range(1, n + 1):
+        print('*' * i)
+
+# Executando as funções
+media, soma = calcular_media_soma()
+print(f"A média é {media} e a soma é {soma}")
+print("Lista alterada: ", substituir_palavra())
+gerar_triangulo()
