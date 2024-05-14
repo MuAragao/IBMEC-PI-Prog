@@ -1,0 +1,39 @@
+# Abrindo um arquivo para escrita
+f = open('meu_arquivo.txt', 'w')
+
+# Escrevendo no arquivo
+f.write("Teste de número 1\n") # '\n' gera uma quebra de linha
+f.write("teste de número 2")
+
+# Fechando o arquivo
+f.close()
+
+# Abrindo o arquivo novamente para adicionar mais texto
+f = open('meu_arquivo.txt', 'a')
+f.write('Mais um pouco de texto')
+f.close()
+
+# Abrindo um novo arquivo, escrevendo e fechando
+f = open('novo_arquivo.txt', 'w')
+f.write('Novos arquivos\nnovos textos')
+f.close()
+
+# Abrindo o arquivo para leitura e escrita
+f = open('novo_arquivo.txt', 'r+')
+conteudo = f.read() # conteudo = 'Novos arquivos\nnovos textos'
+f.seek(0) # é preciso voltar ao início para ler outra vez
+print(f.read())
+
+# Continuando o exemplo
+f.write('\nNunca é demais')
+f.close()
+
+# Abrindo o arquivo para leitura
+f = open('novo_arquivo.txt', 'r')
+print(f.read())
+
+# Lendo um arquivo linha a linha
+f = open("novo_arquivo.txt", "r")
+for linha in f:
+    print(linha, end='')
+f.close()
